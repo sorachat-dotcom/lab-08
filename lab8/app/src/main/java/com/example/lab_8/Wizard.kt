@@ -26,7 +26,7 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     }
 
 
-    //
+    //Training function to increase spellpower if we have enough mana.
     fun train() {
         while (mana >= 5) {
             mana -= 5
